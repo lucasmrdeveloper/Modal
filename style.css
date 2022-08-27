@@ -1,0 +1,74 @@
+:root{
+    --background: #191816;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.btn-modal{
+       
+}
+
+.modal-box{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    display: none;
+}
+
+
+.active{
+    display:inline;
+    background-color: #fff;
+}
+
+.modal{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.modal h3{
+    padding: 15px;
+}
+
+hr{
+    background-color: red;
+    font-size: 50px;
+    height: 2px;
+    border: 1px solid #eee;
+}
+
+.modal p{
+    padding: 20px;
+}
+
+.modal button{
+    margin: 15px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #ffc632;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+main{
+    display: flex;
+}
