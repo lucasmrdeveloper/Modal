@@ -13,10 +13,12 @@
 
         function openModal() {
             modal.classList.add('active')
+            btnOpenModal.style.display = 'none'
         }
 
         function closeModal() {
             modal.classList.remove('active')
+            btnOpenModal.style.display = 'initial'
         }
     }
 })()
