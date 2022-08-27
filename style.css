@@ -17,17 +17,11 @@ body{
     align-items: center;
   }
 
-.btn-modal{
-       
-}
 
 .modal-box{
     background-color: #fff;
     border-radius: 10px;
     width: 500px;
-    position: fixed;
-    top: 10%;
-    right: 20%;
     display: none;
 }
 
