@@ -53,7 +53,6 @@ hr{
 
 .modal button{
     margin: 15px;
-    border-radius: 5px;
 }
 
 button{
@@ -61,6 +60,7 @@ button{
     padding: 8px;
     cursor: pointer;
     border: none;
+    border-radius: 5px;
 }
 
 main{
