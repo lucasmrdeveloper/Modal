@@ -8,17 +8,17 @@
         const $btnCloseModal = document.querySelector('.btn-close') 
         const $modal = document.querySelector('.modal-box')
 
-        $btnOpenModal.addEventListener('click', openModal)
-        $btnCloseModal.addEventListener('click', closeModal)
+        $btnOpenModal.addEventListener('click', () => {openModal($modal, $btnOpenModal)})
+        $btnCloseModal.addEventListener('click', () => {closeModal($modal, $btnOpenModal)})
 
-        function openModal() {
+        function openModal($modal, $btnOpen) {
             $modal.classList.add('active')
-            $btnOpenModal.style.display = 'none'
+            $btnOpen.style.display = 'none'
         }
 
-        function closeModal() {
+        function closeModal($modal, $btnOpen) {
             $modal.classList.remove('active')
-            $btnOpenModal.style.display = 'initial'
+            $btnOpen.style.display = 'initial'
         }
     }
 })()
